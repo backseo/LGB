@@ -1,5 +1,5 @@
 /* Main navbar */
-.navbar-ficel {
+.navbar-name {
   position: fixed;
   display: flex;
   align-items: center;
@@ -16,49 +16,49 @@
 }
 
 /* Logo */
-.navbar-ficel-brand img {
+.navbar-name-brand img {
   transition: all ease-in-out 700ms;
   height: 85px;
 }
 
 /* User Avatar */
-.navbar-ficel .avatar {
+.navbar-name .avatar {
   height: 50px;
   width: 50px;
   border-radius: 50%;
 }
 
 /* Right section */
-.navbar-ficel-right {
+.navbar-name-right {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 /* Basic navbar item */
-.navbar-ficel-item {
+.navbar-name-item {
   cursor: pointer;
   padding: 10px 10px;
 }
 
 /* Navbar link */
-.navbar-ficel-link {
+.navbar-name-link {
   color: #616668;
   font-size: 14px;
 }
-.navbar-ficel-link:hover {
+.navbar-name-link:hover {
   color: #da552f;
   text-decoration: none;
 }
 
 /* Dropdown menu */
-.navbar-ficel-dropdown-menu {
+.navbar-name-dropdown-menu {
   margin-top: 15px;
   box-shadow: 1px 1px 4px #E6E6E6;
   border-color: #E6E6E6;
   background: $sky-gradient;
 }
-.navbar-ficel-dropdown-menu li > a {
+.navbar-name-dropdown-menu li > a {
   transition: color 0.3s ease;
   font-weight: lighter !important;
   color: $gray !important;
@@ -66,11 +66,11 @@
   line-height: 22px !important;
   padding: 10px 20px;
 }
-.navbar-ficel-dropdown-menu li > a:hover {
+.navbar-name-dropdown-menu li > a:hover {
   background: $gray-gradient !important;
   color: $white !important;
 }
-.navbar-ficel-dropdown-menu:before {
+.navbar-name-dropdown-menu:before {
   content: ' ';
   height: 10px;
   width: 10px;
