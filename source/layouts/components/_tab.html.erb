@@ -1,39 +1,32 @@
 <div class="tabs hidden-xs hidden-sm">
 
   <div class="tabs-item dropdown">
-    <span>Section<span>
+    <span><%= image_tag "plaque7.png", alt: "la cave", height: 60 %></span>
       <div class="dropdown-content">
-         <span><%= link_to 'Sous-Section', "#.html" %></span>
-          <hr>
-         <span><%= link_to 'Sous-Section', "#.html" %></span>
-         <hr>
-         <span><%= link_to 'Sous-Section', "#.html" %></span>
-    </div>
-  </div>
-
-  <div class="tabs-item dropdown">
-    <span>Section</span>
-      <div class="dropdown-content">
-        <span><%= link_to 'Sous-Section', "#.html" %></span>
+        <span><%= link_to 'Nos bières', "cave.html" %></span>
         <hr>
-        <span><%= link_to 'Sous-Section', "#.html" %></span>
+        <span><%= link_to 'Les softs', "softs.html" %></span>
         <hr>
-        <span><%= link_to 'Sous-Section', "#.html" %></span>
+        <span><%= link_to 'Pour manger', "planches.html" %></span>
       </div>
   </div>
 
-  <div class="tabs-item">
-    <span><%= link_to 'Section', "#.html" %></span>
+   <div class="tabs-item dropdown">
+    <span><%= image_tag "garden.png", alt: "la terrasse", height: 54 %><span>
+      <div class="dropdown-content">
+         <span><%= link_to 'A l\'intérieur', "inside.html" %></span>
+         <hr>
+         <span><%= link_to 'Coté terrasse', "garden.html" %></span>
+    </div>
   </div>
 
   <div class="tabs-item">
-    <span><%= link_to 'Section', "#.html" %></span>
+    <span><%= link_to 'Contact', 'contact.html', title: "Pour nous écrire, c'est par ici !" %></span>
   </div>
+
   <div class="tabs-item">
-     <span><%= link_to 'Contact', 'contact.html' %></span>
+    <span><%= link_to 'Newsletter', 'https://mailchi.mp/007441856a60/newsletter10mai', target: "_blank", title: "Pour rester informé !" %></span>
   </div>
-  <div class="tabs-item">
-     <span><%= link_to 'A propos', 'about.html' %></span>
-  </div>
+
 </div><!-- Fin tabs -->
 

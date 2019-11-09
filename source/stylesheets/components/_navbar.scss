@@ -1,14 +1,22 @@
 /* Main navbar */
 .navbar-name {
   position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
   align-items: center;
   justify-content: space-around;
   z-index: 100;
-  background: $gray-gradient;
+  background: $navbar-gradient;
   height: 90px;
   width: 100%;
   transition: all ease-in-out 700ms;
+}
+
+#lgb-title {
+  float: left;
+  font-family: $headers-font;
+  font-size: 2rem;
 }
 
 .nav-offset-top {
@@ -56,7 +64,7 @@
   margin-top: 15px;
   box-shadow: 1px 1px 4px #E6E6E6;
   border-color: #E6E6E6;
-  background: $sky-gradient;
+  background: $navbar-gradient;
 }
 .navbar-name-dropdown-menu li > a {
   transition: color 0.3s ease;
@@ -92,5 +100,8 @@
 }
 
 
-
-
+@media only screen and (max-width: 960px) {
+  #lgb-title {
+    font-size: 1.2rem;
+  }
+}

@@ -15,5 +15,44 @@
 @import "pages/index";
 @import "aos/aos";
 
+html body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ background: black;
+}
 
+section {
+  background-attachment: fixed;
+}
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headers-font;
+}
+
+p {
+  font-family: $body-font;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.navbar-top-offset {
+  padding-top: 70px;
+}
+
+.left {
+  float: left;
+  margin: 10px;
+}
+
+.right {
+  float: right;
+  margin: 10px;
+}
+
+.white {
+  background:white;
+}

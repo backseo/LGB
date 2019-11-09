@@ -23,8 +23,10 @@ $(window).scroll(function() {
   if ($(document).scrollTop() > 90) {
     $('.navbar-name').css("height", 60);
     $('.navbar-name-brand img').css("height", 60)
+    $('tabs-item span img').css("height", 50)
   } else {
     $('.navbar-name').css("height", 90);
     $('.navbar-name-brand img').css("height", 85)
+    $('tabs-item span img').css("height", 80)
   }
 });

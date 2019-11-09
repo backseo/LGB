@@ -1,0 +1,56 @@
+.garden1 {
+  box-sizing: border-box;
+  background-image: url(../images/outside2.jpg);
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.garden2 {
+  box-sizing: border-box;
+  background-image: url(../images/outside3.jpg);
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.garden3 {
+  box-sizing: border-box;
+  background-image: url(../images/outside1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.garden4 {
+  box-sizing: border-box;
+  background-image: url(../images/outside4a.jpg);
+  background-size: cover;
+  background-position: 0 center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.aered {
+  margin-top: 150px;
+  background: $blue-gradient;
+  color: white;
+  font-size: 1rem;
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: black 1px 1px 2px 1px;
+}
+
+@media only screen and (max-width: 720px) {
+  .aered {
+    padding: 10px;
+    transform: scale(0.6);
+  }
+}

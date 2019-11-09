@@ -1,0 +1,130 @@
+.home-banner {
+  box-sizing: border-box;
+  background-image: url(../images/TGB-interieur.jpg);
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 100px;
+  z-index: 20;
+}
+
+.text-part {
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px 8px;
+  border-radius: 4px;
+  padding: 30px 20px;
+}
+
+.text-part p {
+  font-family: $headers-font;
+  font-size: 2rem;
+  text-indent: 3rem;
+  color: white;
+  padding: 50px 50px;
+  background: $blue-gradient;
+  z-index: 0;
+}
+
+.sect-text {
+  box-sizing: border-box;
+  background-image: url(../images/inside0.jpg);
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 100px;
+}
+
+.myown {
+  box-shadow: black 1px 1px 2px 1px;
+}
+
+#babyfoot {
+  float: left;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+#planches {
+  float: right;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+#billard {
+  float: right;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.sec-pos3 {
+  box-sizing: border-box;
+  background-image: url(../images/outside1.jpg);
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+.sec-pos4 {
+  box-sizing: border-box;
+  background-image: url(../images/fond4.jpg);
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#welcome {
+  margin-bottom: 120px;
+}
+
+.rounded {
+  border-radius: 50%;
+}
+
+.coord {
+  background: $blue-gradient;
+  margin: 50px auto;
+  padding: 40px 40px;
+  color: white;
+  width: 80%;
+  border-radius: 4px;
+}
+
+.spaced {
+  padding-top: 50px;
+}
+
+@media only screen and (max-width: 960px){
+  .text-part {
+    width: 96%;
+    margin: 10px auto;
+    border-radius: 4px;
+    padding: 2px 0px;
+    background: $navbar-gradient;
+    font-weight: lighter;
+  }
+
+  .text-part p {
+    font-size: 1.2rem;
+    text-indent: 3rem;
+    color: white;
+    padding-bottom: 30px;
+  }
+
+  .coord {
+    width: 90%;
+    margin: 0px auto;
+    padding: 10px 10px;
+    & h1,h2,h3{
+      transform: scale(0.7);
+    }
+  }
+}

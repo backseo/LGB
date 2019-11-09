@@ -1,37 +1,8 @@
 // Import Google fonts
-@import url('https://fonts.googleapis.com/css?family=Acme|Roboto+Condensed:300i');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto:300i');
 
 // Define fonts for body and headers
-$headers-font: "Acme", "sans-serif";
-$body-font: "Roboto Condensed", "sans-serif";
+$headers-font: "Merriweather", "sans-serif";
+$body-font: "Roboto", "sans-serif";
 
 $font-size: 1rem;
-// To use a font file (.woff) uncomment following lines
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
-//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-//        font-url('FontFile.woff') format('woff'),
-//        font-url('FontFile.ttf') format('truetype')
-// }
-// $my-font: "Font Name";
-
-html body {
-background: white;
-margin: 0;
-box-sizing: border-box;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: $headers-font;
-}
-
-p {
-  font-family: $body-font;
-  font-size: 14px;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
