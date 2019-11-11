@@ -10,11 +10,8 @@
   background: $navbar-gradient;
   height: 90px;
   width: 100%;
+  box-shadow: 1px 1px 2px 1px rgba(0,0,0, 0.5);
   transition: all ease-in-out 700ms;
-}
-
-#lgb-title {
-  transform: scale(1);
 }
 
 .nav-offset-top {
@@ -97,21 +94,28 @@
   border-radius: 2px;
 }
 
-@media only screen and (max-width: 1120px) {
-  #lgb-title {
-    transform: scale(0.8);
-  }
+#lgb-title {
+  margin-top: 12px;
+  padding: 0 8px;
+  transform: scaleY(2);
+  font-weight: 400;
+  font-family: $headers-font;
+  color: white;
+  background: $blue-gradient;
+  border-radius: 2px;
 }
 
-
-@media only screen and (max-width: 720px) and (orientation: landscape) {
+@media only screen and (max-width: 1024px) {
   #lgb-title {
-    transform: scale(0.8);
+    transform: scaleX(0.8);
   }
 }
 
 @media only screen and (max-width: 720px) {
   #lgb-title {
-    transform: scale(0.5);
+    transform: scaleX(0.7);
+    transform: scaley(1.2);
   }
 }
+
+
