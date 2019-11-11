@@ -1,3 +1,28 @@
+#ico_cave {
+  height: 80px;
+  transition: all ease-in-out 700ms;
+}
+
+#ico_lieu {
+  height: 80px;
+  transition: all ease-in-out 700ms;
+}
+
+#ico_contact {
+  height: 80px;
+  transition: all ease-in-out 700ms;
+}
+
+#ico_news {
+  height: 80px;
+  transition: all ease-in-out 700ms;
+}
+
+#ico_plan {
+  height: 80px;
+  transition: all ease-in-out 700ms;
+}
+
 .tabs {
   display: flex;
   background: transparent;
@@ -7,13 +32,16 @@
   flex: 1 0 auto;
   text-align: center;
   padding: 0px 30px;
-  line-height: 6rem;
   font-size: 2rem;
   font-family: $headers-font;
   color: black;
   cursor: pointer;
   opacity: 0.8;
   transition: all ease-in-out 500ms;
+}
+
+.tabs-item span {
+  line-height: 8rem;
 }
 
 .tabs-item:hover {
@@ -49,7 +77,7 @@
   text-align: center;
   background: $gray-gradient;
   border-radius: 3px;
-  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
   z-index: 1;
   margin: 0 auto;
   left: 0;

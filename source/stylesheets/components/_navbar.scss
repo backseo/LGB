@@ -14,9 +14,7 @@
 }
 
 #lgb-title {
-  float: left;
-  font-family: $headers-font;
-  font-size: 2rem;
+  transform: scale(1);
 }
 
 .nav-offset-top {
@@ -99,9 +97,21 @@
   border-radius: 2px;
 }
 
-
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1120px) {
   #lgb-title {
-    font-size: 1.2rem;
+    transform: scale(0.8);
+  }
+}
+
+
+@media only screen and (max-width: 720px) and (orientation: landscape) {
+  #lgb-title {
+    transform: scale(0.8);
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  #lgb-title {
+    transform: scale(0.5);
   }
 }

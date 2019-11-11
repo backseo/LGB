@@ -1,7 +1,16 @@
 <div class="tabs hidden-xs hidden-sm">
 
+   <div class="tabs-item dropdown">
+    <span><%= image_tag "ico_lieu.png", alt: "Le bar", id: "ico_lieu" %><span>
+      <div class="dropdown-content">
+         <span><%= link_to 'A l\'intérieur', "inside.html" %></span>
+         <hr>
+         <span><%= link_to 'Coté terrasse', "garden.html" %></span>
+    </div>
+  </div>
+
   <div class="tabs-item dropdown">
-    <span><%= image_tag "plaque7.png", alt: "la cave", height: 60 %></span>
+    <span><%= image_tag "ico_cave.png", alt: "la cave", id: "ico_cave" %></span>
       <div class="dropdown-content">
         <span><%= link_to 'Nos bières', "cave.html" %></span>
         <hr>
@@ -11,21 +20,16 @@
       </div>
   </div>
 
-   <div class="tabs-item dropdown">
-    <span><%= image_tag "garden.png", alt: "la terrasse", height: 54 %><span>
-      <div class="dropdown-content">
-         <span><%= link_to 'A l\'intérieur', "inside.html" %></span>
-         <hr>
-         <span><%= link_to 'Coté terrasse', "garden.html" %></span>
-    </div>
+  <div class="tabs-item">
+    <span><a href="contact.html"><%= image_tag "ico_contact.png", id: "ico_contact", title: "Pour nous écrire !" %></a></span>
   </div>
 
   <div class="tabs-item">
-    <span><%= link_to 'Contact', 'contact.html', title: "Pour nous écrire, c'est par ici !" %></span>
+    <span><a href="Newsletter', 'https://mailchi.mp/007441856a60/newsletter10mai"><%= image_tag "ico_news.png", id: "ico_news", target: "_blank", title: "Pour rester informé !" %></a></span>
   </div>
 
   <div class="tabs-item">
-    <span><%= link_to 'Newsletter', 'https://mailchi.mp/007441856a60/newsletter10mai', target: "_blank", title: "Pour rester informé !" %></span>
+    <span><a href="adresse.html"><%= image_tag "ico_plan.png", id: "ico_plan", title: "Pour nous trouver !" %></a></span>
   </div>
 
 </div><!-- Fin tabs -->
