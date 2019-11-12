@@ -71,7 +71,6 @@
 }
 
 .dropdown-content {
-  box-sizing: border-box;
   display: none;
   position: absolute;
   text-align: center;
@@ -79,9 +78,10 @@
   border-radius: 3px;
   box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
   z-index: 1;
-  margin: 0 auto;
   left: 0;
   right: 0;
+  word-break: keep-all;
+  padding: 0;
 }
 
 .dropdown:hover .dropdown-content {

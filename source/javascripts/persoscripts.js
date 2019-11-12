@@ -22,7 +22,7 @@
 $(window).scroll(function() {
   if ($(document).scrollTop() > 90) {
     $('.navbar-name').css("height", 60);
-    $('.navbar-name-brand img').css("height", 60)
+    $('.navbar-name-brand img').css("height", 54)
     $('tabs-item span img').css("height", 50)
     $('#ico_cave').css("height", 50)
     $('#ico_lieu').css("height", 50)

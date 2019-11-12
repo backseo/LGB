@@ -1,29 +1,27 @@
-.foot-up {
-  height: 167px;
-  width: 100%;
-}
-
 .myfooter {
+  position: relative;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
   padding: 10px 50px;
   background-color: black;
 }
 
 .list-menu {
+  min-width: 400px;
   color: white;
-  margin: 8px 2px 8px 2px;
+  margin: 4px auto;
+  padding-right: 10px;
 }
 
 .list-menu a {
   color: white;
-  opacity: 0.5;
+  opacity: 0.8;
   padding: 0px 10px;
 }
 .list-menu a:hover {
-  color: LIGHTBLUE;
+  color: $lgb-lightblue;
   opacity: 1;
+  text-decoration: none;
 }
 
 .centree {
