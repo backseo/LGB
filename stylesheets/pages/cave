@@ -1,0 +1,13 @@
+.spacetop {
+  padding-top: 30px; }
+
+#plan {
+  border-radius: 4px;
+  box-shadow: black 1px 1px 2px 2px; }
+
+.bg-black {
+  background: black;
+  border-radius: 4px;
+  margin: 30px auto;
+  padding: 20px;
+  width: 90%; }
