@@ -29,6 +29,7 @@ $(window).scroll(function() {
     $('#ico_contact').css("height", 50)
     $('#ico_news').css("height", 50)
     $('#ico_plan').css("height", 50)
+    $('#pontiac').css("height", 50)
   } else {
     $('.navbar-name').css("height", 90);
     $('.navbar-name-brand img').css("height", 85)
@@ -38,5 +39,6 @@ $(window).scroll(function() {
     $('#ico_contact').css("height", 80)
     $('#ico_news').css("height", 80)
     $('#ico_plan').css("height", 80)
+    $('#pontiac').css("height", 80)
   }
 });
