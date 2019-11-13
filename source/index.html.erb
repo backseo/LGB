@@ -1,44 +1,48 @@
 <div class="navbar-top-offset"></div>
   <section class="home-banner myown" data-stellar-background-ratio="0.5">
-    <%= image_tag "open.png", alt: "ouvert", class: "img-responsive centree", width: 800%>
+    <%= image_tag "open.png", alt: "Le Garage", class: "img-responsive centree", width: 800%>
   </section>
 
-  <section class="sect-text myown"  data-stellar-background-ratio="0.5">
-    <div data-aos="zoom-in"><%= image_tag "welcome.jpg",width: 200, id: "welcome", class: "img-responsive centree myown" %></div>
-    <div class="hidden-sm hidden-xs" data-aos="zoom-out">
-      <%= image_tag "babyfoot.jpg", id: "babyfoot", alt: "babyfoot", class: "img-responsive centree myown" %>
+  <section class="sect-text myown" data-stellar-background-ratio="0.5">
+    <div data-aos="zoom-in">
+      <%= image_tag "welcome.jpg",width: 200, id: "welcome", class: "img-responsive centree myown" %>
+    </div>
+    <div class="hidden-sm hidden-xs" data-aos="fade-down">
+      <%= image_tag "babyfoot.jpg", id: "babyfoot", alt: "babyfoot", class: "img-responsive centree rounded myown left" %>
     </div>
     <div class="text-part text-center">
-      <div data-aos="zoom-out"><%= image_tag "planche_a.jpg", id: "planches", alt: "welcome", class: "img-responsive centree myown" %></div>
+      <div data-aos="fade-up">
+        <%= image_tag "planche_a.jpg", id: "planches", alt: "welcome", class: "img-responsive centree rounded myown right" %>
+      </div>
       <p>Bienvenue ! Nous avons mis le meilleur de nous même pour transformer cet ancien garage en un espace accueillant. Vous y trouverez une sélection de bières et de vins pour vous faire plaisir mais aussi pour explorer différentes saveurs.</p>
     </div>
   </section>
 
-  <%= image_tag "bolt_barre.jpg", class: "myown", alt: "alttext" %>
 
-  <section class="sec-pos3 myown" data-stellar-background-ratio="1.5">
-    <div data-aos="zoom-out">
-      <%= image_tag "billard.jpg", id: "billard", alt: "billard", class: "img-responsive myown rounded hidden-sm hidden-xs", width: 300 %>
-      <%= image_tag "pingpong1.jpg", id: "pingpong", alt: "ping-pong", class: "img-responsive myown left rounded hidden-sm hidden-xs", width: 200 %>
+
+  <section class="sec-pos3 myown" data-stellar-background-ratio="0.5">
+    <div data-aos="fade-in">
+      <%= image_tag "billard.jpg", id: "billard", alt: "billard", class: "img-responsive rounded myown right hidden-sm hidden-xs", width: 300 %>
+      <%= image_tag "pingpong1.jpg", id: "pingpong", alt: "ping-pong", class: "img-responsive rounded myown left hidden-sm hidden-xs", width: 200 %>
       </div>
     <div class="text-part">
       <p>L’avantage d’un garage c’est que c’est grand. Vous pourrez profiter de notre terrasse et de son amènagement confortable avec, pour les amateurs, un terrain de pétanque et une table de ping-pong. <br>A l’intérieur, vous pourrez disposer d'un billard et de jeux de fléchettes pour les plus joueurs.</p>
     </div>
-     <div class="hidden-sm hidden-xs" data-aos="zoom-out">
-        <%= image_tag "verres.jpg", alt: "bar", class: "img-responsive myown left rounded", width: 300 %>
-      <%= image_tag "foodtruck.jpg", alt: "foodtruck", class: "img-responsive myown right rounded", width: 200 %>
+     <div class="hidden-sm hidden-xs" data-aos="fade-in">
+        <%= image_tag "verres.jpg", alt: "bar", class: "img-responsive myown rounded left", width: 300 %>
+      <%= image_tag "foodtruck.jpg", alt: "foodtruck", class: "img-responsive myown rounded right", width: 200 %>
      </div>
     <div class="text-part">
       <p>Le Garage Bar est aussi un espace vous acceuillant lors de la retransmition d' évènements sportifs grâce à nos 2 grands écrans. Venez vous retrouver avec votre famille, vos collègues ou amis, autour d'un verre, tout en grignotant une de nos planche. Un Food Truck est également souvent là et à votre service.</p>
     </div>
   </section>
 
-  <%= image_tag "bolt_barre.jpg", class: "myown", alt: "alttext" %>
+
 
   <section class="sec-pos4 myown">
-      <div class="spaced">
-        <%= image_tag "logo.png", class: "img-responsive centree", width: 300 %>
-      </div>
+    <div class="spaced">
+      <%= image_tag "logo.png", class: "img-responsive centree", width: 300 %>
+    </div>
     <div class="text-center coord">
       <h2>40 Avenue du Maréchal de Lattre de Tassigny<br>33610 Cestas</h2>
       <h3>Ouvert du mardi au dimanche<br>de 16H30 à 23H30</h3>

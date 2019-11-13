@@ -15,13 +15,13 @@
       <%= yield %>
       <%= partial 'layouts/components/footer' %>
     <!-- stellar on top of jquery -->
-    <script>$(window).stellar({verticalOffset : 200});</script>
+    <script>$(window).stellar({responsive : true, horizontalScrolling:false});</script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="javascripts/lightbox.js"></script>
+    <!-- <script src="javascripts/lightbox.js"></script> -->
     <script>
       AOS.init({
         offset: 70,
-        duration: 500,
+        duration: 800,
         easing: 'ease-in-out',
         delay: 300,
       });
