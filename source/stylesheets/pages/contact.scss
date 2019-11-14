@@ -1,13 +1,13 @@
 .cdrfbox-contact {
   position: relative;
   display: block;
-  width: 100%;
   min-height: 400px;
-  margin-bottom: 50px;
-  padding: 10px;
+  margin: 0 auto;
+  padding: 20px 10px;
   color: white;
   border-radius: 4px;
   background: $blue-gradient;
+  border: 1px black solid;
 }
 
 .action {
@@ -16,11 +16,11 @@
 }
 
 .stylised {
-  margin: 0 auto;
-  margin-bottom: 50px;
+  position: relative;
+  margin: 20px auto;
   border-radius: 4px;
   height: auto;
-  width: 80%;
+  width: 90%;
   padding: 20px;
   background: $gray-gradient;
 }
@@ -31,9 +31,10 @@
 }
 
 .form-group label,
-.form-group input {
+.form-group input,
+.form-group textarea {
   color: black;
-  transform: scaleY(1.1);
+  width: 90%;
 }
 
 label {
