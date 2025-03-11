@@ -1,3 +1,33 @@
+#ico_cave {
+  height: 80px;
+  transition: all ease-in-out 700ms;
+}
+
+#ico_lieu {
+  height: 80px;
+  transition: all ease-in-out 700ms;
+}
+
+#ico_contact {
+  height: 80px;
+  transition: all ease-in-out 700ms;
+}
+
+#ico_news {
+  height: 80px;
+  transition: all ease-in-out 700ms;
+}
+
+#ico_plan {
+  height: 80px;
+  transition: all ease-in-out 700ms;
+}
+
+#pontiac {
+  height: 80px;
+  transition: all ease-in-out 700ms;
+}
+
 .tabs {
   display: flex;
   background: transparent;
@@ -6,8 +36,7 @@
 .tabs-item {
   flex: 1 0 auto;
   text-align: center;
-  padding: 0px 30px;
-  line-height: 6rem;
+  padding: 20px 24px;
   font-size: 2rem;
   font-family: $headers-font;
   color: black;
@@ -17,6 +46,7 @@
 }
 
 .tabs-item:hover {
+  padding: 20px 24px;
   background: transparent;
   flex: 1 0 auto;
   border-radius: 3px;
@@ -43,21 +73,21 @@
 }
 
 .dropdown-content {
-  box-sizing: border-box;
   display: none;
   position: absolute;
   text-align: center;
   background: $gray-gradient;
   border-radius: 3px;
-  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
   z-index: 1;
-  margin: 0 auto;
   left: 0;
   right: 0;
+  white-space: nowrap;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+  padding: 10px 0px;
 }
 
 .dropdown-content a {

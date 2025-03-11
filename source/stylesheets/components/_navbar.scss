@@ -1,6 +1,6 @@
 /* Main navbar */
 .navbar-name {
-  position: fixed;
+  position: fixed !important;
   top: 0;
   left: 0;
   display: flex;
@@ -9,14 +9,9 @@
   z-index: 100;
   background: $navbar-gradient;
   height: 90px;
-  width: 100%;
+  width: 100vw;
+  box-shadow: 1px 1px 2px 1px rgba(0,0,0, 0.5);
   transition: all ease-in-out 700ms;
-}
-
-#lgb-title {
-  float: left;
-  font-family: $headers-font;
-  font-size: 2rem;
 }
 
 .nav-offset-top {
@@ -25,6 +20,7 @@
 
 /* Logo */
 .navbar-name-brand img {
+  margin-left: 4px;
   transition: all ease-in-out 700ms;
   height: 85px;
 }
@@ -61,7 +57,6 @@
 
 /* Dropdown menu */
 .navbar-name-dropdown-menu {
-  margin-top: 15px;
   box-shadow: 1px 1px 4px #E6E6E6;
   border-color: #E6E6E6;
   background: $navbar-gradient;
@@ -71,7 +66,6 @@
   font-weight: lighter !important;
   color: $gray !important;
   font-size: 15px !important;
-  line-height: 22px !important;
   padding: 10px 20px;
 }
 .navbar-name-dropdown-menu li > a:hover {
@@ -87,9 +81,9 @@
   top: -6px;
   background-color: white;
   transform: rotate(45deg);
-  border-left: 1px solid #E6E6E6;
-  border-top: 1px solid #E6E6E6;
 }
+
+
 
 #nfi1 {
   text-align: center;
@@ -99,9 +93,30 @@
   border-radius: 2px;
 }
 
+#lgb-title {
+  margin-top: 12px;
+  margin-left: 8px;
+  padding: 0 8px;
+  transform: scaleY(2);
+  font-weight: 400;
+  font-family: $headers-font;
+  color: white;
+  background: $blue-gradient;
+  border-radius: 2px;
+  text-align: center;
+}
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1100px) {
   #lgb-title {
-    font-size: 1.2rem;
+    transform: scaleX(0.7);
   }
 }
+
+@media only screen and (max-width: 720px) {
+  #lgb-title {
+    transform: scaleX(0.7);
+    transform: scaley(1.2);
+  }
+}
+
+

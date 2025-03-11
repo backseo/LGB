@@ -1,3 +1,19 @@
 .spacetop {
   padding-top: 30px;
 }
+
+// plan de la page adresse
+#plan {
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: black 1px 1px 2px 2px;
+}
+
+//fond noir pour les pancartes
+.bg-black {
+  background: rgba(15, 15, 15, 0.7);
+  border-radius: 4px;
+  margin: 30px auto;
+  padding: 20px 0px;
+  width: 90%;
+}
